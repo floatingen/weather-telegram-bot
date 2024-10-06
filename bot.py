@@ -1,9 +1,8 @@
 import os
-
-from dotenv import load_dotenv
 import asyncio
-from aiogram import Bot, Dispatcher, types
 import requests
+from dotenv import load_dotenv
+from aiogram import Bot, Dispatcher, types
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.filters.command import Command
